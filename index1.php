@@ -11,14 +11,18 @@
 <h>Hello</h>
 <p></p>
 <?php
-//$dat = date("d.m.y");
-//echo "$dat";
-//$dat = date("h:i:s");
-//echo "$dat";
-
-for ($i = 1; $i <=5; $i++) {
-    echo ($i *$i * $i);
-}
+$var = 5;
+//if (isset($var)){
+//    echo "Переменная существует. $var";
+//}
+//echo $var;
+//unset($var);
+//echo $var;
+//
+$a = array('a' => 'apple',
+    'b'=> 'car',
+    'c'=> 'dog');
+print_r($a);
 ?>
 </body>
 </html>
