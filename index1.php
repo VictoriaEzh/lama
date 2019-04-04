@@ -1,3 +1,36 @@
+<?php
+
+error_reporting(-1);
+/*
+1boolean: true / false - const регистронезависимые - выполняется ли условие
+2integer
+3float
+4string
+ */
+/*1
+$var = true;
+//var_dump($var);
+//echo gettype($var);
+*/
+/*2
+$int = '10' + 5;
+var_dump($int);
+*/
+/*3
+$fl = 1.2;
+var_dump($fl);
+*/
+$var = 10;
+$str = 'This is string. $var';
+
+$str2 = "This is string. {$var}";
+var_dump($str2);
+?>
+
+
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,24 +38,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
-<h>Hello</h>
-<p></p>
-<?php
-$var = 5;
-//if (isset($var)){
-//    echo "Переменная существует. $var";
-//}
-//echo $var;
-//unset($var);
-//echo $var;
-//
-$a = array('a' => 'apple',
-    'b'=> 'car',
-    'c'=> 'dog');
-print_r($a);
-?>
+<h1> </h1>
+
 </body>
 </html>
